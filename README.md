@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# AlmaBetter Frontend Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Resume-Builder
 
-## Available Scripts
+Introducing Resume Builder: a cutting-edge React application designed to empower you in creating compelling resumes effortlessly. With its intuitive interface, Resume Builder allows you to seamlessly customize every aspect of your resume, showcasing your distinctive skills and professional experience with clarity and style.
 
-In the project directory, you can run:
+Elevate yourself and leave a lasting impact with Resume Builder—a tool crafted to help you secure your dream job. Begin shaping your future today with a tool designed to set you apart from the crowd.
 
-### `npm start`
+**Pick your template - Fill in the details and boom! Your resume is ready to preview and download.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone this repository in your local machine and install the needed dependencies
 
-### `npm test`
+Type **npm start** in terminal to start the application after installing the dependencies using **npm install <package_name>**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies and Libraries used
 
-### `npm run build`
+- React
+- React-router-dom
+- React-hook-form
+- Redux
+- jspdf
+- Material UI and Icons
+- Tailwing-css
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Application Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+├── public/
+│	├── index.html
+│    	├──images/
+│		├── template1.png
+│		├── template2.png
+│		├── template3.png
+│		├── template4.png	
+├──src/
+│	├──App.js
+│	├──App.css
+│	├──App.test.js
+│	├──index.css
+│	├──index.js
+│	├──setupTests.js
+│	├──Components/
+│		├──images/
+│			├──LOGO.png
+│			├──Right.png
+│			├──aboutus.png
+│			├──download.png
+│			├──nodata.png
+│   	├── Education.jsx
+│		├──GettingStarted.jsx
+│		├──Keyskills.jsx
+│		├──Myresume.jsx
+│		├──PersonalInformation.jsx
+│		├──Workexperience.jsx
+│	├──Data/
+│		├──data.js
+│	├──Pages/
+│		├──About US/
+│			├──Aboutus.jsx
+│		├──Details Filing/
+│			├──Detailfilling.jsx
+│			├──sidebar.css 
+│		├──Home/
+│			├──TempleteCard.jsx
+│			├──Templetes.jsx
+│		├──Preview/
+│			├──Preview,jsx
+│	├──Redux/
+│		├──actions/
+│			├──actions.js
+│			├──saveresume.js
+│			├──setcontact.js
+│			├──seteducation.js
+│			├──setexperience.js
+│			├──setkeyskills.js
+│			├──settemplate.js
+│		├──constants/
+│			├──typeCodes.js
+│		├──reducers/
+│			├──initialState.js
+│			├──rootReducer.js
+│			├──saveresume.js
+│			├──setcontact.js
+│			├──seteducation.js
+│			├──setexperience.js
+│			├──setkeyskills.js
+│			├──settemplate.js
+│		├──store
+│			├──store.js
+│	├──Templetes/
+│		├──Resume1.css
+│		├──Resume1.jsx
+│		├──Resume2.jsx
+│		├──Resume3.css
+│		├──Resume3.jsx
+│		├──Resume4.css
+│		├──Resume4.jsx
+├──index.js   
+├──package-lock.json
+├──package.json
+└──tailwind.config.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Components and Pages of Application:
 
-### `npm run eject`
+**Template Selection** - From this component user can choose their favourite template.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![template selection](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/ebc3023b-b631-4d9c-bbac-97c3ca1aff2c)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Details Filling Page** - From this component user can add their details of personal info, education, experience and skills.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![perosnal](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/b4142cb3-d785-40ce-841e-396f200c8764)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Preview Page** - The user will see their resume in its final form in this component, and once everything is finished, they can use the save button to downlaod it in PDF format.
 
-## Learn More
+![preview](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/7c69597f-c7ce-46bc-b5b1-5803a954012c)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**My Resume Page** - This component shows the resume that user saved.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![myresume page](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/b68d563d-87a6-41a4-ba02-63c94b971026)
 
-### Code Splitting
+**Abouts Us** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![About Us](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/ca33b437-4bda-49f7-b899-ca5a3722f8e4)
 
-### Analyzing the Bundle Size
+## Links for the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Deployment Link : 
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Developed By-
+- Abhishek Tiwari
