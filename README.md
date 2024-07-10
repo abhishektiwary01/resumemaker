@@ -112,7 +112,8 @@ Type **npm start** in terminal to start the application after installing the dep
 
 **Details Filling Page** - From this component user can add their details of personal info, education, experience and skills.
 
-![perosnal](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/b4142cb3-d785-40ce-841e-396f200c8764)
+![perosnal](https://github.com/abhishektiwary01/resumemaker/assets/109284617/9c184bdc-d9d4-465d-b164-538d083d5f0b)
+
 
 **Preview Page** - The user will see their resume in its final form in this component, and once everything is finished, they can use the save button to downlaod it in PDF format.
 
