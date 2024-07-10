@@ -117,11 +117,10 @@ Type **npm start** in terminal to start the application after installing the dep
 
 **Preview Page** - The user will see their resume in its final form in this component, and once everything is finished, they can use the save button to downlaod it in PDF format.
 
-![preview](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/7c69597f-c7ce-46bc-b5b1-5803a954012c)
+![preview](https://github.com/abhishektiwary01/resumemaker/assets/109284617/be5ca380-1a93-4495-8258-2675969d36e4)
+**Saved resume Page** - This component shows the resume that user saved.
 
-**My Resume Page** - This component shows the resume that user saved.
-
-![myresume page](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/b68d563d-87a6-41a4-ba02-63c94b971026)
+![myresume page](https://github.com/abhishektiwary01/resumemaker/assets/109284617/11190221-b55e-46e2-ab68-b0a74ce30d21)
 
 **Abouts Us** 
 
