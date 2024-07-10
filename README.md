@@ -128,7 +128,7 @@ Type **npm start** in terminal to start the application after installing the dep
 
 ## Links for the project
 
-Deployment Link : 
+Deployment Link : https://resume-maker-theta-sepia.vercel.app/
 
 ## Developed By-
 - Abhishek Tiwari
