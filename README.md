@@ -124,8 +124,7 @@ Type **npm start** in terminal to start the application after installing the dep
 
 **Abouts Us** 
 
-![About Us](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/ca33b437-4bda-49f7-b899-ca5a3722f8e4)
-
+![About Us](https://github.com/abhishektiwary01/resumemaker/assets/109284617/4830002f-a3be-486f-a440-3250ba5f0832)
 ## Links for the project
 
 Deployment Link : https://resume-maker-theta-sepia.vercel.app/
